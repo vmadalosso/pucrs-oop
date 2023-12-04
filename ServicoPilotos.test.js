@@ -1,7 +1,15 @@
-/* Teste para o método 'obterPilotoPorMatricula' do serviço 'ServicoPilotos'.
+/* 
+  Teste para o método 'obterPilotoPorMatricula' do serviço 'ServicoPilotos'.
 
-Este teste garante que o serviço de pilotos consiga recuperar um piloto específico 
-com base na matrícula e que os dados desse piloto sejam corretos.
+  Este teste verifica se o serviço de pilotos é capaz de recuperar um piloto específico
+  com base na matrícula fornecida e se os dados desse piloto são corretos.
+
+  Detalhes do teste:
+  - Cria uma instância do ServicoPilotos antes de cada teste, fornecendo um ambiente limpo para cada execução.
+  - Chama o método 'obterPilotoPorMatricula' com a matrícula "003" e armazena o resultado na variável 'piloto'.
+  - Verifica se 'piloto' é uma instância da classe Piloto.
+  - Verifica se o nome do piloto retornado é "Dan Abramov".
+  - Verifica se a habilitação do piloto retornado é true.
 
 */
 

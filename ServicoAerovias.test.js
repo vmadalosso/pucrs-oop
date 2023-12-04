@@ -1,7 +1,15 @@
-/* Teste para o método 'obterAeroviaPorIdentificador' do serviço 'ServicoAerovias'.
+/* 
+  Teste para o método 'obterAeroviaPorIdentificador' do serviço 'ServicoAerovias'.
 
-Este teste garante que o serviço de aerovias consiga recuperar uma aerovia específica 
-com base no identificador e que os dados dessa aerovia sejam corretos.
+  Este teste verifica se o serviço de aerovias é capaz de recuperar uma aerovia específica
+  com base no identificador fornecido e se os dados dessa aerovia são corretos.
+
+  Detalhes do teste:
+  - Cria uma instância do ServicoAerovias antes de cada teste.
+  - Chama o método 'obterAeroviaPorIdentificador' com o identificador "POA-FLO" e armazena o resultado em 'aerovia'.
+  - Verifica se 'aerovia' é uma instância da classe Aerovia.
+  - Verifica se o aeroporto de origem da aerovia retornado é "Porto Alegre".
+  - Verifica se o tamanho da aerovia retornado é 1000.
 
 */
 

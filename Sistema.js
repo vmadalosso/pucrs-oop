@@ -1,3 +1,4 @@
+// Módulo 'fs' (File System) esse módulo é requerido para gerar os arquivos texto de dados
 const fs = require("fs")
 
 // Classe Sistema representa o núcleo do programa de gerenciamento de dados

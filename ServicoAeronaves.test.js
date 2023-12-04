@@ -1,7 +1,15 @@
-/* Teste para o método 'obterAeronavePorPrefixo' do serviço 'ServicoAeronaves'.
+/* 
+  Teste para o método 'obterAeronavePorPrefixo' do serviço 'ServicoAeronaves'.
+  
+  Este teste verifica se o serviço de aeronaves é capaz de recuperar uma aeronave específica
+  com base no prefixo fornecido e se os dados dessa aeronave são corretos.
 
-Este teste garante que o serviço de aeronaves consiga recuperar uma aeronave específica 
-com base no prefixo e que os dados dessa aeronave sejam corretos.
+  Detalhes do teste:
+  - Cria uma instância do ServicoAeronaves antes de cada teste.
+  - Chama o método 'obterAeronavePorPrefixo' com o prefixo "PR001" e armazena o resultado em 'aeronave'.
+  - Verifica se 'aeronave' é uma instância da classe AeronaveParticular.
+  - Verifica se o nome da empresa de manutenção da aeronave é "ManutençãoAero".
+  - Verifica se a velocidade de cruzeiro da aeronave é 400.
 
 */
 
