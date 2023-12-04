@@ -39,10 +39,10 @@ Neste projeto, você aplicará os conteúdos da disciplina para modelar um siste
 
 PROGRAMA:
 
-1. Clonar o diretório com o comando:
+1. Clonar o diretório:
 
 ```
-git clone
+git clone https://github.com/vmadalosso/pucrs-oop.git
 ```
 
 2. Instalar as dependências/bibliotecas utilizadas no programa:
@@ -51,43 +51,47 @@ git clone
 npm install
 ```
 
-3. Através do Terminal e dentro do diretório com o arquivo 'Main.js', execute o seguinte comando:
+3. Pelo terminal e dentro do diretório com o arquivo 'Main.js':
 
 ```
 node Main.js
 ```
 
-Um menu com 5 opções seré exibido para o usuário:
+Um menu com 5 opções será exibido para o usuário:
 
 ```
 1. Listar Pilotos
+
 2. Listar Aeronaves
+
 3. Listar Aerovias
-4. Gerar Arquivo de Dados
+
+4. Gerar Arquivo de Dados (Essa opção gera 3 arquivos texto de dados .csv no diretório raíz. Você pode deletar os 3 arquivos .csv e gerar novamente para testar a funcionalidade)
+
 5. Sair do Programa
 ```
 
 TESTES:
 
-ATENÇÃO: Foi utilizado a biblioteca Jest para desenvolver e rodar os testes. Caso os testes não funcione, certifique-se de instalar a biblioteca através do comando:
+ATENÇÃO: Foi utilizada a biblioteca "Jest" para desenvolver e rodar os testes. Caso os mesmos não estejam funcionando corretamente, verifique se a biblioteca foi instalada:
 
 ```
 npm install --save-dev jest
 ```
 
-Para realizar os testes, dentro do mesmo diretorio dos arquivos com a extensão ".test.js", execute o comando abaixo para rodar todos testes:
+Para realização dos testes, dentro do mesmo diretório dos arquivos com a extensão ".test.js", execute o comando abaixo:
 
 ```
 npx jest
 ```
 
-Ou o próximo comando para executar um único teste isoladamente:
+Caso preferir executar cada um dos testes isoladamente:
 
 ```
 npx jest NomeDoArquivo.test.js
 ```
 
-Arquivos de Testes:
+Arquivos dos Testes:
 
 ```
 ServicoAeronaves.test.js
