@@ -37,7 +37,7 @@ Neste projeto, você aplicará os conteúdos da disciplina para modelar um siste
 
 ## 🔖 Execução
 
-PROGRAMA:
+**PROGRAMA:**
 
 1. Clonar o diretório:
 
@@ -59,21 +59,19 @@ node Main.js
 
 Um menu com 5 opções será exibido para o usuário:
 
-```
 1. Listar Pilotos
 
 2. Listar Aeronaves
 
 3. Listar Aerovias
 
-4. Gerar Arquivo de Dados (Essa opção gera 3 arquivos texto de dados .csv no diretório raíz. Você pode deletar os 3 arquivos .csv e gerar novamente para testar a funcionalidade)
+4. Gerar Arquivo de Dados (**Essa opção gera 3 arquivos texto de dados .csv no diretório raíz. Você pode deletar os 3 arquivos .csv e gerar novamente para testar a funcionalidade**)
 
 5. Sair do Programa
-```
 
-TESTES:
+**TESTES:**
 
-ATENÇÃO: Foi utilizada a biblioteca "Jest" para desenvolver e rodar os testes. Caso os mesmos não estejam funcionando corretamente, verifique se a biblioteca foi instalada:
+**ATENÇÃO**: Foi utilizada a biblioteca "Jest" para desenvolver e rodar os testes. Caso os mesmos não estejam funcionando corretamente, verifique se a biblioteca foi instalada:
 
 ```
 npm install --save-dev jest
